@@ -6,14 +6,18 @@ https://vercel.com/ => Host Free for connect with API to HTML
 https://achecks.org/
 wave.webaim.org
 
+***ผูก github กัย git bash ผ่าน vs code และ sync account github เข้ากับ vs code ได้****
+4.git config --global user.email "you@example.com" 
+5.git config --global user.name "Your Name"
+1.git init 
+2.git add . 
+3.git commit -m "first commit"  (add 4. and 5. before this)
+6.git branch -M main 
+7.git remote add origin  repository ของท่าน.git (git remote add origin https://github.com/thiti0365/testweb_wcag.git) ใน github
+8.git push -u origin main
 
-git config --global user.email "you@example.com" 
-git config --global user.name "Your Name"
-git init 
-git add . 
-git commit -m "first commit" 
-git branch -M main 
-git remote add origin  repository ของท่าน.git 
-git push -u origin main
-
+API ของ TU สามารถกำหนด เส้นทางได้ สอน พร้อม node.js etc. 25-26 Mar 2024
 https://restapi.tu.ac.th/tuapi/
+
+vs code
+extension (auto close tag // auto rename tag // color ....)
